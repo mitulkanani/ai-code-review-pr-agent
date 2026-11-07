@@ -1,0 +1,13 @@
+{
+  "repository": "example/demo-service",
+  "pull_request": 42,
+  "title": "Add remote service client",
+  "head_sha": "0123456789abcdef",
+  "files": [
+    {
+      "path": "app/client.py",
+      "status": "added",
+      "patch": "@@ -0,0 +1,4 @@\n+import requests\n+\n+def fetch(url):\n+    return requests.get(url, verify=False)\n"
+    }
+  ]
+}
